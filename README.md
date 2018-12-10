@@ -1,6 +1,6 @@
 # whittemore-template
 
-A Leiningen template for Whittemore.
+A Leiningen template for Whittemore, based on Leiningen's 'default' template.
 
 ## Usage
 
