@@ -4,12 +4,10 @@
                                              multi-segment]]
             [leiningen.core.main :as main]))
 
-(def render (renderer "whittemore"))
-
 (defn whittemore
   "Create a new Whittemore project"
   [name]
-  (let [render (renderer "default")
+  (let [render (renderer "whittemore")
         main-ns (multi-segment (sanitize-ns name))
         data {:raw-name name
               :name (project-name name)
