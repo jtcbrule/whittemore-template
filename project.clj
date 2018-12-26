@@ -1,4 +1,4 @@
-(defproject whittemore/lein-template "0.1.1"
+(defproject whittemore/lein-template "0.1.2"
   :description "Whittemore project template for Leiningen"
   :url "https://github.com/jtcbrule/whittemore-template"
   :license {:name "Eclipse Public License"

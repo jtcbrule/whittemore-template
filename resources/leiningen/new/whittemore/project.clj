@@ -5,5 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [viz-cljc "0.1.3"] ; graphviz fallback, can be removed
-                 [whittemore "0.1.0-SNAPSHOT"]]
+                 [whittemore "0.1.0"]]
   :plugins [[lein-jupyter "0.1.16"]])
